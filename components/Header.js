@@ -14,8 +14,11 @@ const Header = () => {
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" 
                 alt='logo' 
                 fill 
-                object-fit="contain" 
-                position="obsolute" 
+                sizes='100%'
+                style={{
+                  objectFit: 'contain'
+                }} 
+                priority
             />
         </div>
         {/* middle-search */}
